@@ -1,0 +1,21 @@
+{
+    "HOME": {
+      "TITLE": "Bienvenido al Sistema de Empleados",
+      "DESCRIPTION": "Esta es la página de inicio. Use el menú de navegación para acceder a las diferentes secciones."
+    },
+    "MENU": {
+      "NAME": "Sistema de empleados",
+      "HOME": "Inicio",
+      "EMPLOYEES": "Empleados",
+      "ABOUT": "Acerca de"
+    },
+    "EMPLOYEE": {
+      "FINDER": "Buscador de empleados",
+      "FINDER_TEXT": "Introduzca el ID del empleado",
+      "BUTTON": "Buscar"
+    },
+    "ABOUT": {
+      "TITLE": "Acerca de Sistema de busqueda de empleados",
+      "DEVELOP": "Este sistema fue desarrollado por: Nerio Indriago."
+    }
+  }

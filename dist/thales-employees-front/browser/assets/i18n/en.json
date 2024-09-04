@@ -1,0 +1,21 @@
+{
+    "HOME": {
+      "TITLE": "Welcome to the Employee System",
+      "DESCRIPTION": "This is the homepage. Use the navigation menu to access different sections."
+    },
+    "MENU": {
+      "NAME": "Employee System",
+      "HOME": "Home",
+      "EMPLOYEES": "Employees",
+      "ABOUT": "About"
+    },
+    "EMPLOYEE": {
+      "FINDER": "Employees Finder",
+      "FINDER_TEXT": "Enter de Employee ID",
+      "BUTTON": "Search"
+    },
+    "ABOUT": {
+      "TITLE": "About Employee Search System",
+      "DEVELOP": "This system was developed by: Nerio Indriago."
+    }
+  }

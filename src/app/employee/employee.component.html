@@ -1,0 +1,39 @@
+<div class="container mt-5">
+    <h2 class="mb-4">{{ 'EMPLOYEE.FINDER' | translate }}</h2>
+    
+    <div class="row mb-3">
+      <div class="col-sm-6">
+        <input type="text" class="form-control" placeholder="{{ 'EMPLOYEE.FINDER_TEXT' | translate }}" [(ngModel)]="employeeId">
+      </div>
+      <div class="col-sm-2">
+        <button class="btn btn-primary" (click)="searchEmployee()">{{ 'EMPLOYEE.BUTTON' | translate }}</button>
+      </div>
+    </div>
+  
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+  
+    <div *ngIf="employees.length > 0">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Salario</th>
+            <th>Salario Anual</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let employee of employees">
+            <td>{{ employee.id }}</td>
+            <td>{{ employee.employeeName }}</td>
+            <td>{{ employee.employeeAge }}</td>
+            <td>{{ employee.employeeSalary | currency }}</td>
+            <td>{{ employee.employeeAnnualSalary | currency }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
